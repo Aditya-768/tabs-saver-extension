@@ -1,0 +1,16 @@
+
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Tabs Saver",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "rupee.jpg",
+            "128": "rupee.jpg"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
