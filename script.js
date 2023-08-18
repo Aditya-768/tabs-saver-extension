@@ -27,12 +27,13 @@ dataStored();
 function render(){
             const list = document.createElement('li')
             const link = document.createElement('a')
-            link.textContent = inputBox.value;
-            list.appendChild(link)
+            
+          
             for(let i=0; i<data.length; i++){
                 link.href = data[i];
+                link.textContent = data[i];
             }
-
+            list.appendChild(link)
             link.target = "_blank"
             list.classList.add("list")
             
